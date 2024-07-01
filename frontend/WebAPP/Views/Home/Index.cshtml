@@ -1,0 +1,24 @@
+﻿@model List<Pedido>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<button asp-controller="Home" asp-action="ListarPedido">AQUI</button>
+<a class="btn btn-danger" asp-area="" asp-controller="Home" asp-action="ListarPedido">Home</a>
+
+
+@if (Model != null && Model.Count > 0)
+{
+    foreach (var pedido in Model)
+    {
+        <p>@pedido.Id - @pedido.Nome - @pedido.Date</p>
+        <br />
+    }
+}

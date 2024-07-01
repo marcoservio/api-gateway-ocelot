@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GTBo2gjxZvQ=",
+  "success": true,
+  "projectFilePath": "C:\\projects\\api-gateway-ocelot\\frontend\\WebAPP\\WebAPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marco Sérvio\\.nuget\\packages\\flurl\\4.0.0\\flurl.4.0.0.nupkg.sha512",
+    "C:\\Users\\Marco Sérvio\\.nuget\\packages\\flurl.http\\4.0.2\\flurl.http.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

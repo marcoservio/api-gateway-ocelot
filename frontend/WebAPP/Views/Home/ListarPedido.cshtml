@@ -1,0 +1,11 @@
+﻿@model List<Pedido>
+
+
+@if (Model != null && Model.Count > 0)
+{
+    foreach (var pedido in Model)
+    {
+        <p>@pedido.Id - @pedido.Nome - @pedido.Date</p>
+        <br />
+    }
+}
